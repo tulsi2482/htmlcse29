@@ -1,0 +1,31 @@
+.container{
+    display:grid;
+    height: 400px;
+    width:1000px;
+    background-color:blueviolet;
+    border:1px solid black;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items:center;
+    align-items: center;
+    }
+.item{
+    /* height: 100px;
+    width:100px; */
+    background-color:rgb(231, 135, 18);
+    border:1px solid rgb(162, 68, 68);
+    text-align: center;
+    align-content:center;
+
+}
+/* .item1{
+    grid-area:header;
+}
+.item2{
+    grid-area:main;
+}
+.item3{
+    grid-area:sidebar;
+}
+.item4{
+    grid-area:footer; */
